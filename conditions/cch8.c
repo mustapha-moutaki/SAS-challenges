@@ -2,7 +2,7 @@
 #include <math.h> 
 
 int main() {
-    double a, b, c, moyenneGeometrique;
+    double a, b, c, moyGEO;
 
     printf("Entrez le premier nombre : ");
     scanf("%lf", &a);
@@ -13,10 +13,11 @@ int main() {
     printf("Entrez le troisieme nombre : ");
     scanf("%lf", &c);
 
-    moyenneGeometrique = cbrt(a * b * c);
+    moyGEO = cbrt(a * b * c);
+    //cbrt example: 2*2*2
 
 
-    printf("La moyenne geometrique des trois nombres est : %lf\n", moyenneGeometrique);
+    printf("La moyenne geometrique des trois nombres est : %lf\n", moyGEO);
 
     return 0;
 }
