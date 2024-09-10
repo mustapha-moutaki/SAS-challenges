@@ -10,7 +10,7 @@ int main(){
             int tmp = 0;
             if (T[j] > T[j+1]){
                 tmp = T[j+1];
-                T[j]=T[j+1];
+                T[j + 1]=T[j];
                 T[j] = tmp;
                 
             }
